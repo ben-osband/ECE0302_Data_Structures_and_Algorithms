@@ -52,8 +52,8 @@ TEST_CASE("3. Test MagicBox", "[MagicBox]")
    REQUIRE(magicCard->getItem() == "Jack of Diamonds");
 
    magicCard->setItem("Joker");
-   REQUIRE(false); // TODO: write one statement to test the item stored,
-                   // recall that MagicBox would only hold the first item
+   REQUIRE(magicCard->getItem() == "Joker"); // TODO: write one statement to test the item stored,
+                                             // recall that MagicBox would only hold the first item
 }
 
 // !!! Not a good practice to declare classes in testing file, just for exercise purposes
@@ -101,7 +101,7 @@ TEST_CASE("4. Test MagicBox2", "[MagicBox2]")
    REQUIRE(magicCard2->getItem() == "Jack of Diamonds");
 
    magicCard2->setItem("Joker");
-   REQUIRE(false); // TODO: write one statement to test the item stored,
+   REQUIRE(magicCard2->getItem() == "Joker"); // TODO: write one statement to test the item stored,
                    // recall that MagicBox2 is supposed to only hold the first item
 }
 

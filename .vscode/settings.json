@@ -21,12 +21,12 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": false,
-  
   "cmake.sourceDirectory": [
-                              "${workspaceFolder}/Problems/problem0_add",
-                              "${workspaceFolder}/Homework/Tests_with_Catch/version_3",
-                              "${workspaceFolder}/Lectures/Lecture_1_inheritance_templates_review",
-                              "${workspaceFolder}/References_301/9_inh_overriding/inh_overriding_end",
-                              "${workspaceFolder}/References_301/10_templates/templates_end",
-                            ]
+    "${workspaceFolder}/Problems/problem0_add",
+    "${workspaceFolder}/Homework/Tests_with_Catch/version_3",
+    "${workspaceFolder}/Lectures/Lecture_1_inheritance_templates_review",
+    "${workspaceFolder}/References_301/9_inh_overriding/inh_overriding_end",
+    "${workspaceFolder}/References_301/10_templates/templates_end",
+  ],
+  "C_Cpp.errorSquiggles": "disabled"
 }
